@@ -13,6 +13,6 @@ Constraints
 Output Format
 Print N lines, one corresponding to each i. 
 '''
-N=(int)(raw_input())
-for i in range(0,N):
-    print pow(i,2)
+n=(int)(raw_input())
+for i in range(0,n):
+    print(i**2)
